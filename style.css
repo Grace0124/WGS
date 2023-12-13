@@ -1,0 +1,38 @@
+* {
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    justify-content: center;
+    background-color: #ffe5ec;
+}
+
+body div {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    display: flex;
+    font-size: 10px;
+    color: blue;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #ffb3c6;
+    border-color: black;
+    transition: 0.5s;
+}
+
+h1 {
+    color: #f72585;
+}
+
+button:hover {
+    transform: translateY(-5px);
+    background-color: #f72585; 
+}
